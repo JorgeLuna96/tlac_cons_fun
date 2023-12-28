@@ -1,0 +1,36 @@
+[
+  {
+    "label": "Número de Licencia",
+    "variable": "numLicencia",
+    "tipo": "text"
+  },
+  {
+    "label": "Horario",
+    "variable": "horario",
+    "tipo": "text"
+  },
+  {
+    "label": "Fecha De Incio",
+    "variable": "fechaInicio",
+    "tipo": "date"
+  },
+  {
+    "label": "Fecha de Terminacion",
+    "variable": "fechaTerminacion",
+    "tipo": "date"
+  },
+  {
+    "label": "Fecha de Renovación",
+    "variable": "fechaRenovacion",
+    "tipo": "date"
+  },
+  {
+    "label": "Tipo Licencia",
+    "variable": "opcioLin",
+    "tipo": "select",
+    "opciones": [
+      "LICENCIA DE FUNCIONAMIENTO",
+      "RENOVACIÓN LICENCIA"
+    ]
+  }
+]
