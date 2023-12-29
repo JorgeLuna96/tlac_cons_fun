@@ -4,10 +4,10 @@
     <div style="padding-left: 55px">
         <div class="row info">
             <div class="gorw" style="color: #214465">
-                CONTRIBUYENTE: <span style="color: black; font-weight: bold">{{--{{ $contribuyente->nombre }}--}}</span>
+                CONTRIBUYENTE: <span style="color: black; font-weight: bold">{{ $contribuyente->nombre }}</span>
             </div>
             <div class="grow" style="padding-left: 14%; color: black; font-weight: bold; text-align: center">
-                {{--{{ $tipoLicencia }}--}}: <span style="color: #214465; font-weight: bold">{{--{{ $numLic }}--}}</span>
+                {{ $opcioLin }}: <span style="color: #214465; font-weight: bold">{{ $numLicencia }}</span>
             </div>
         </div>
         <div class="row info">
@@ -28,9 +28,9 @@
         <div style="padding-left: 10%">
             <table class="info cuerpo" style="width: 80%">
                 <tr class="info row">
-                    <td class="info" style="border: 1px solid black; width:30%;">
-                        <div style="padding: 0 5px">
-                            REGISTRO: <span>{{--{{$registro}}--}}</span>
+                    <td class="info" style="border: 1px solid black; width:30%; padding-top: 36px">
+                        <div style="padding-left: 15px;">
+                            REGISTRO: <span>{{$registro}}</span>
                         </div>
                     </td>
                     <td class="info" style="border: 1px solid black; width: 55%; padding: 15.2px 8px;">
@@ -46,18 +46,18 @@
             <table class="info cuerpo" style="width: 70%">
                 <tr class="info grow" style="text-align: center">
                     <td style="border: 1px solid black; width: 23%; padding: 15.2px 8px">
-                        <div style="color: #214465; font-weight: bold">
-                            FECHA DE INICIO: <span style="color: black; font-weight: bold">123123{{--{{ date('d-m-Y',strtotime($fehcaInicio)) }}--}}</span>
+                        <div style="color: #214465; font-weight: bold; white-space:nowrap; display:block">
+                            FECHA DE INICIO: <span style="color: black; font-weight: bold; display:block;">{{ date('d-m-Y',strtotime($fechaInicio)) }}</span>
                         </div>
                     </td>
                     <td style="border: 1px solid black; width: 23%; padding: 15.2px 8px">
                         <div style="color: #214465; font-weight: bold">
-                            FECHA DE TERMINACIÓN: <span style="color: black; font-weight: bold">123123123{{--{{ date('d-m-Y',strtotime($fechaTerminacion)) }}--}}</span>
+                            FECHA DE TERMINACIÓN: <span style="color: black; font-weight: bold">{{ date('d-m-Y',strtotime($fechaTerminacion)) }}</span>
                         </div>
                     </td>
                     <td style="border: 1px solid black; width: 23%; padding: 15.2px 8px">
                         <div style="color: #214465; font-weight: bold;">
-                            FECHA DE RENOVACIÓN: <span style="color: black; font-weight: bold">1231231{{--{{ date('d-m-Y',strtotime($fechaRenovacion)) }}--}}</span>
+                            FECHA DE RENOVACIÓN: <span style="color: black; font-weight: bold">{{ date('d-m-Y',strtotime($fechaRenovacion)) }}</span>
                         </div>
                     </td>
                 </tr>

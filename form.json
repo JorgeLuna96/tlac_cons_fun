@@ -32,5 +32,10 @@
       "LICENCIA DE FUNCIONAMIENTO",
       "RENOVACIÓN LICENCIA"
     ]
+  },
+  {
+    "label": "Registro",
+    "variable": "registro",
+    "tipo": "text" 
   }
 ]
